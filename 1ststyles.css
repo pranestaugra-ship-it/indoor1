@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mozilla+Headline:wght@200..700&family=Pacifico&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header{
+  
+padding: 10px;
+color: white;
+background-color: rgb(194, 204, 223);
+position: sticky;
+top: 0;
+z-index: 1000;
+box-shadow: 2px 2px  2px 2px rgb(216, 223, 237);
+}
+.first{
+   
+    display: flex;
+    justify-content: space-around;
+}
+header img{
+    width:50px;
+    height: 50px;
+position: relative;
+right: 5px;
+
+}
+header h2{
+    font-family: 'Mozilla Headline', sans-serif;
+    position: relative;
+   right: 20px;
+ color: rgb(40, 4, 16);
+}
+
+header ul{
+    font-size: 1.5rem;
+display: flex;
+
+
+list-style-type: none;
+justify-content: space-around;
+width :400px;
+position: relative;
+right: 30px;
+    
+    align-items: center;
+   color: rgb(40, 4, 16);
+ border: 4px 5px  beige;
+
+}
+
+
+.second{
+    position:relative;
+    left:50px;
+}
+
+.third{
+height: 40px;
+position: relative;
+left: 10px;
+}
+.fourth{
+    display: flex;
+}
+.fourth img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.search{
+    display: flex;
+    position: relative;
+  width:300px;
+    border: 2px solid black;
+    height: 30px;
+    padding :10px;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 5px ;
+}
+.search h7{
+    position: relative;
+   bottom: 6px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(145, 134, 134);
+}
+main{
+    
+   margin-top: 20px;
+}
+.sectionone{
+
+height: 800px;
+    background-color: rgb(248, 240, 225);
+}
+.make{
+    height:250px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   
+}
+.seperate{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px;
+    margin-left: 0px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 335px;
+    border-radius: 50px;
+
+}
+
+
+
+p{
+    width: 600px;
+    font-size:1.5rem;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    color: rgb(40, 4, 16);
+    font-family: 'Mozilla Headline', sans-serif;
+    
+    
+
+}
+.make img{
+    position: relative;
+    top: 25px;
+    left: 100px;
+ align-items: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+  
+}
+.viswam{
+    display: flex;
+    align-items: center;
+}
+.viswam h1{
+text-align: center;
+position: relative;
+left: 300px;
+    width: 150px;
+    height: 100px;
+font-size: 3rem;
+font-family: 'Mozilla Headline', sans-serif;
+border-radius: 30px;
+margin-bottom: 120px;
+}
+.viswam h3{
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+    padding: 10px;
+width: 75px;
+position: relative;
+left:215px;
+
+
+}
+
+.sectiontwo{
+    
+    height: 800px;
+}
+
+.sectiontwo{
+    background-image: url('https://www.westside.com/cdn/shop/articles/ethnic_wear_for_women_by_utsa.jpg?v=1651309808');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sectiontwo h1{
+    width: 400px;
+
+    position: relative;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+    font-size: 4rem;
+    align-items: center;
+    font-family:'pacifico';
+    color: rgb(48, 34, 12);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.sectiontwo h4{
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+  background-color: rgb(231, 196, 202);
+    padding: 20px;
+    color: rgb(48, 34, 12);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sectiontwo h3{
+    font-size: 3rem;
+    color: rgb(48, 34, 12);
+    font-family: 'imperial script';
+    position: relative;
+    top: 200px;
+    left: 390px;
+
+}
+.box{
+    width: 150px;
+    height: 260px;
+  position: relative;
+position: relative;
+top: 300px;
+left: 300px;
+    border: 3px solid rgb(48, 34, 12);
+    border-radius: 50px;
+    box-shadow: 4px 4px gray;
+   
+}
+.box h2{
+    font-size: 3rem;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(48, 34, 12) ;
+
+
+}
+.sectionthree{
+    width: 1440px; 
+    height: 1350px;
+  background-color:rgb(228, 228, 240);
+  position: relative;
+
+  
+}
+
+footer{
+ width: 1440px;
+    height: 350px;
+    background-color: rgb(194, 204, 223);
+}
+.firstrow{
+    
+ position: relative;
+ top: 50px;
+   display: flex;
+   margin-left: 30px;
+   
+   width: 1380px;
+   height: 600px;
+background-color: rgb(255, 255, 255);
+}
+.product{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  
+}
+.product img{
+    width:300px;
+    height: 400px;
+    object-fit: contain;
+   
+    gap: 20px;
+ 
+}
+.product h3{
+
+    text-align: center;
+}
+.product h6{
+    position: relative;
+   
+    color: grey;
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product h5{
+    margin: 10px;
+    text-align: center;
+}
+.flex{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+   
+}
+.fill{
+    text-decoration: line-through;
+
+    color: grey;
+    position: relative;
+    top: 1px;
+    font-family:monospace;
+}
+.fil{
+    color: orange;
+  
+ font-size: 0.75rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+.secondrow{
+        position: relative;
+        top: 50px;
+          display: flex;
+          margin-left: 30px;
+          
+          width: 1380px;
+          height: 600px;
+       background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+.fone{
+    padding: 50px 100px;
+    list-style-type: none;
+   color: rgb(79, 70, 70);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerplus{
+    display: flex;
+}
+.fone li{
+    margin-bottom: 0.5em;
+}
+.ftwo li{
+    margin-bottom: 2em;
+}
+.footerone h5{
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 20px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footerthree h5{
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.facelink img{
+width: 20px;
+height: 40px;
+object-fit: contain;
+position: relative;
+bottom: 20px;
+}
+
+.mobile{
+    position: relative;
+    left: 50px;
+top: 50px;
+}
+.mobile h5{
+    margin-bottom: 20px;
+}
+.desktop{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: 10px;
+    object-fit: contain;
+}
+.mobile h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lastone img{
+    position: relative;
+    left: 180px;
+    top: 50px;
+   display: flex;
+   margin-bottom: 30px;
+   flex-direction: column;
+}
+.lastoneone{
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerplus h5{
+    color: rgb(40, 44, 63);
+}
+.last {
+    margin-left: 5px;
+    position: relative;
+    left: 190px;
+    top: 48px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+line-height: normal;
+color: rgb(79, 70, 70);
+
+}
+.oh{
+    margin-bottom: 40px;
+}
+.last img{
+position: relative;
+right: 30px;
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+}
+.last h5{
+    font-size: 1rem;
+    margin: 10px;
+    position: relative;
+    bottom: 35px;
+    color:rgb(40, 44, 63);
+}
